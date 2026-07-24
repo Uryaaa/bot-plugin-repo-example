@@ -1,0 +1,8 @@
+{
+  "name": "example-plugin",
+  "version": "1.0.0",
+  "author": "yourname",
+  "description": "Example plugin — replace with a real one",
+  "main": "https://raw.githubusercontent.com/Uryaaa/bot-plugin-repo-example/main/main.js",
+  "checksum": ""
+}
