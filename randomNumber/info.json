@@ -1,0 +1,15 @@
+{
+  "name": "Random number",
+  "version": "1.0.0",
+  "author": ["uryaaa"],
+  "short": "A example plugin that needs a 3rd-party npm package",
+  "description": "Generates a random ID using the nanoid package.",
+  "main": "main.js",
+  "type": "command",
+  "tags": ["example"],
+  "min_bot_version": "1.0.0",
+  "max_bot_version": "",
+  "hidden": false,
+  "disabled": false,
+  "requirements": ["nanoid@3.3.7"]
+}
