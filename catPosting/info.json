@@ -1,0 +1,19 @@
+{
+  "name": "catposting",
+  "version": "1.0.0",
+  "author": ["Uryaaa"],
+  "short": "Posts a random cat picture on a schedule",
+  "description": "Every N minutes, posts a random cat image to a configured channel.",
+  "main": "main.js",
+  "type": "task",
+  "tags": ["fun", "task"],
+  "min_bot_version": "1.0.0",
+  "max_bot_version": "",
+  "hidden": false,
+  "disabled": false,
+  "requirements": [],
+  "config": [
+    { "key": "channel_id", "label": "Channel ID to post in", "type": "string", "required": true },
+    { "key": "interval_minutes", "label": "Minutes between posts", "type": "number", "default": 60 }
+  ]
+}
